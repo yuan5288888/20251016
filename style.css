@@ -1,8 +1,9 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow: hidden; /* 避免出現滾動條 */
 }
-
 canvas {
   display: block;
 }
+
